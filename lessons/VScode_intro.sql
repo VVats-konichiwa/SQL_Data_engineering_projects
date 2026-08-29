@@ -1,6 +1,6 @@
 SELECT 
     job_id, 
-    job_title_short,
+    job_country,
     salary_year_avg,
     company_id
 FROM
