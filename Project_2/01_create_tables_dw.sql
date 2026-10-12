@@ -1,0 +1,1 @@
+--step 1, create the star schema for the dw
