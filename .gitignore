@@ -5,10 +5,10 @@
 *.db
 
 # 📊 Raw data
-/data/raw/
-/data/tmp/
-/data/intermediate/
-/exports/
+**/data/raw/
+**/data/tmp/
+**/data/intermediate/
+**/exports/
 
 # 🔐 Secrets
 .env
@@ -30,3 +30,6 @@ target/
 .idea/
 .vscode/
 __pycache__/
+.venv/
+venv/
+.ipynb_checkpoints/
