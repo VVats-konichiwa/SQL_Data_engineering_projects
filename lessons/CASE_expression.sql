@@ -49,20 +49,20 @@ LIMIT 10;
 */
 SELECT
     job_title,
-    job_title_short,
     CASE 
-        WHEN job_title LIKE '%Analyst%'
+        WHEN job_title LIKE '%Analyst%' AND job_title LIKE '%DATA%'
             THEN 'Data Analyst'
-        WHEN job_title LIKE '%Engineer%'
+        WHEN job_title LIKE '%Engineer%' AND job_title LIKE '%DATA%'
             THEN 'Data Engineer'
-        WHEN job_title LIKE '%Scientist%'
+        WHEN job_title LIKE '%Scientist%' AND job_title LIKE '%DATA%'
             THEN 'Data Scientist'
         ELSE 'Not specified'
     END as title
 FROM 
     job_postings_fact
 WHERE
-    salary_year_avg IS NOT NUL L
+    salary_year_avg IS NOT NULL
+ORDER BY RANDOM()
 LIMIT 10;
  
 
