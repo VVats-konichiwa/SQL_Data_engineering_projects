@@ -1,4 +1,4 @@
-# Project #1: Exploratory Data Analysis (EDA) — Data Engineer Job Postings in India
+# Project #1: Exploratory Data Analysis (EDA) — Data Engineer Job Postings in 
 
 Based on [Luke Barousse's Data Engineering Bootcamp](https://www.youtube.com/@LukeBarousse), with my own scope variation (all queries scoped to India specifically) and independently debugged issues documented below. Built using SQL on DuckDB, hosted via MotherDuck.
 
